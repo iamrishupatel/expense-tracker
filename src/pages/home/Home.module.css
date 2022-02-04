@@ -1,0 +1,23 @@
+.home {
+  display: grid;
+  display: flex;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+.cards {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+}
+.budget {
+  grid-row: 2;
+}
+.category {
+  flex: 1;
+}
+
+@media screen and (max-width: 768px) {
+  .home {
+    flex-direction: column;
+  }
+}

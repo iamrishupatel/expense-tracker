@@ -1,0 +1,19 @@
+.add {
+  padding: 1rem;
+}
+.add form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+@media screen and (max-width: 600px) {
+  .add {
+    width: 100%;
+    padding: 1rem;
+  }
+  .add form {
+    gap: 1rem;
+  }
+}

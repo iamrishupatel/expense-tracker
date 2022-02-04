@@ -1,0 +1,21 @@
+.signin {
+  height: calc(100vh - 4rem);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.4rem;
+}
+.signin p {
+  text-align: center;
+  font-size: 0.9rem;
+}
+.signin button {
+  display: flex;
+  font-weight: 500;
+  justify-content: center;
+  align-items: center;
+}
+.signin span {
+  font-size: 0.9rem;
+}
